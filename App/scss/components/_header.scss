@@ -1,0 +1,27 @@
+.before_header{
+    width: 100%;
+    padding: .5rem 0;
+    background: $gradient_purple;
+    color: $white;
+    text-align: center;
+}
+
+
+header.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 10rem;
+    a{
+        @include btn_link_Ebook;
+        &::before{
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: $gradient_purple;
+            z-index: -1;
+            margin: -1px;
+            border-radius: .5rem;
+        }
+    }
+}

@@ -12,5 +12,12 @@ $white: #FFFFFF;
 
 //Mixins
 
+@mixin btn_link_Ebook{
+    border-radius: .5rem;
+    position: relative;
+    background: $dark;
+    padding: .8rem 1rem;
+    color: $white;
+}
 
 

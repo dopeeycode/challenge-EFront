@@ -1,8 +1,17 @@
 @import 'variablesAndMixin';
+@import './components/header';
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Sora', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+body{
+    background-color: $dark;
 }
