@@ -12,6 +12,7 @@ header.container{
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 10rem;
+    margin-bottom: 6.5rem;
     a{
         @include btn_link_Ebook;
         &::before{

@@ -1,5 +1,6 @@
 @import 'variablesAndMixin';
 @import './components/header';
+@import './components/mainContent';
 
 *{
     padding: 0;
@@ -13,5 +14,28 @@
 
 
 body{
+    width: 100%;
+    min-height: 100vh;
     background-color: $dark;
+}
+
+
+p{
+    color: $white;
+}
+
+.container-card_left p span{
+    color: $white;
+}
+
+.container-card_left h1  span{
+    background: -webkit-linear-gradient(linear-gradient(90deg, #4776E6 0%, #8E54E9 100%));;
+    background: $gradient_purple;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+img, svg, canvas{
+    max-width: 100%;
 }
